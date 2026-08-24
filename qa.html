@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Q&amp;A — DawaDiaspora</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=Noto+Naskh+Arabic:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo">Dawa<span class="logo-accent" style="color:#C9A24B;">Diaspora</span></a>
+
+    <nav class="main-nav">
+      <a href="index.html#courses" data-i18n="nav.courses">Courses</a>
+      <a href="programs.html" data-i18n="nav.programs">Programs</a>
+      <a href="qa.html" class="active" data-i18n="nav.qa">Q&amp;A</a>
+      <a href="books.html" data-i18n="nav.books">Books</a>
+      <a href="teachers.html" data-i18n="nav.teachers">Our Teachers</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="index.html#donate" data-i18n="nav.donate">Donate</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-switcher">
+        <button class="lang-current" id="langCurrent" aria-haspopup="listbox" aria-expanded="false">
+          <span id="langCurrentLabel">EN</span>
+          <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </button>
+        <ul class="lang-options" id="langOptions" role="listbox">
+          <li role="option" data-lang="en">English</li>
+          <li role="option" data-lang="ar">العربية</li>
+          <li role="option" data-lang="fr">Français</li>
+          <li role="option" data-lang="rw">Kinyarwanda</li>
+          <li role="option" data-lang="sw">Kiswahili</li>
+        </ul>
+      </div>
+      <a href="#login" class="btn btn-ghost" data-i18n="nav.login">Log In</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="section-inner">
+      <p class="hero-eyebrow" data-i18n="qa.eyebrow">Ask us anything</p>
+      <h1 class="page-title" data-i18n="qa.title">Your questions, answered every week</h1>
+      <p class="page-lede" data-i18n="qa.lede">
+        Every Saturday, our WhatsApp line opens for questions — answered in PDF or audio, at your own pace.
+      </p>
+    </div>
+  </section>
+
+  <section class="qa-section">
+    <div class="section-inner">
+      <div class="qa-highlight">
+        <span class="qa-day-badge" data-i18n="programs.schedule.saturday">Saturdays</span>
+        <h2 data-i18n="qa.whatsapp.title">Open WhatsApp Q&amp;A</h2>
+        <p data-i18n="qa.whatsapp.desc">
+          Send your question through WhatsApp on Saturday. Answers are shared back as a short PDF
+          note or a voice message — whichever fits the question best.
+        </p>
+        <!-- 👉 Remplace le numéro ci-dessous par le vrai numéro WhatsApp du client -->
+        <a href="https://wa.me/00000000000" class="btn btn-primary" target="_blank" rel="noopener" data-i18n="qa.whatsapp.button">
+          Open WhatsApp
+        </a>
+      </div>
+
+      <div class="qa-formats">
+        <div class="qa-format-item">
+          <span>📄</span>
+          <p data-i18n="faq.category.pdf">PDF</p>
+        </div>
+        <div class="qa-format-item">
+          <span>🎧</span>
+          <p data-i18n="faq.category.audio">Audio</p>
+        </div>
+      </div>
+
+      <!-- Archive des questions passées — à connecter à /api/faq une fois le contenu prêt -->
+      <div class="qa-archive">
+        <h3 data-i18n="qa.archive.title">Past Questions</h3>
+        <p class="qa-archive-empty" data-i18n="qa.archive.empty">Answered questions will appear here soon.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <a href="/" class="logo logo-footer">Dawa<span class="logo-accent" style="color:#C9A24B;">Diaspora</span></a>
+    <p data-i18n="footer.rights">All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/i18n-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

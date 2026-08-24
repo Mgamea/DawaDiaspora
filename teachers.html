@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Our Teachers — DawaDiaspora</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=Noto+Naskh_Arabic:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo">Dawa<span class="logo-accent" style="color:#C9A24B;">Diaspora</span></a>
+
+    <nav class="main-nav">
+      <a href="index.html#courses" data-i18n="nav.courses">Courses</a>
+      <a href="programs.html" data-i18n="nav.programs">Programs</a>
+      <a href="qa.html" data-i18n="nav.qa">Q&amp;A</a>
+      <a href="books.html" data-i18n="nav.books">Books</a>
+      <a href="teachers.html" class="active" data-i18n="nav.teachers">Our Teachers</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="index.html#donate" data-i18n="nav.donate">Donate</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-switcher">
+        <button class="lang-current" id="langCurrent" aria-haspopup="listbox" aria-expanded="false">
+          <span id="langCurrentLabel">EN</span>
+          <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </button>
+        <ul class="lang-options" id="langOptions" role="listbox">
+          <li role="option" data-lang="en">English</li>
+          <li role="option" data-lang="ar">العربية</li>
+          <li role="option" data-lang="fr">Français</li>
+          <li role="option" data-lang="rw">Kinyarwanda</li>
+          <li role="option" data-lang="sw">Kiswahili</li>
+        </ul>
+      </div>
+      <a href="#login" class="btn btn-ghost" data-i18n="nav.login">Log In</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="section-inner">
+      <p class="hero-eyebrow" data-i18n="teachers.eyebrow">The people behind the lessons</p>
+      <h1 class="page-title" data-i18n="teachers.title">Native voices, real teachers</h1>
+      <p class="page-lede" data-i18n="teachers.lede">
+        Every course is written and recorded by a native speaker with real teaching experience —
+        not a script read by a stranger.
+      </p>
+    </div>
+  </section>
+
+  <section class="teachers-grid-section">
+    <div class="section-inner">
+      <div class="teacher-grid" id="teacherGrid">
+        <!-- Cartes d'enseignants — à remplacer par de vraies données via l'API plus tard -->
+        <article class="teacher-card">
+          <div class="teacher-photo" style="background:#12382B;"></div>
+          <h3>Amina K.</h3>
+          <p class="teacher-lang">Arabic</p>
+          <p class="teacher-bio">Cairo-born, 8 years teaching Arabic to diaspora families abroad.</p>
+        </article>
+
+        <article class="teacher-card">
+          <div class="teacher-photo" style="background:#1B2A4A;"></div>
+          <h3>Jean-Baptiste U.</h3>
+          <p class="teacher-lang">Kinyarwanda</p>
+          <p class="teacher-bio">Kigali native, focuses on conversational fluency for second-generation learners.</p>
+        </article>
+
+        <article class="teacher-card">
+          <div class="teacher-photo" style="background:#C9A24B;"></div>
+          <h3>Fatuma S.</h3>
+          <p class="teacher-lang">Swahili</p>
+          <p class="teacher-bio">Dar es Salaam-based, blends storytelling with grammar fundamentals.</p>
+        </article>
+
+        <article class="teacher-card">
+          <div class="teacher-photo" style="background:#6B6558;"></div>
+          <h3>Claire M.</h3>
+          <p class="teacher-lang">French</p>
+          <p class="teacher-bio">Paris-trained linguist, specializes in teaching heritage speakers.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="section-inner cta-band-inner">
+      <h2 data-i18n="teachers.cta.title">Want to teach with us?</h2>
+      <a href="contact.html" class="btn btn-gold" data-i18n="teachers.cta.button">Become a Teacher</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <a href="/" class="logo logo-footer">Dawa<span class="logo-accent" style="color:#C9A24B;">Diaspora</span></a>
+    <p data-i18n="footer.rights">All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/i18n-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

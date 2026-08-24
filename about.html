@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About — DawaDiaspora</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=Noto+Naskh+Arabic:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo">Dawa<span class="logo-accent" style="color:#C9A24B;">Diaspora</span></a>
+
+    <nav class="main-nav">
+      <a href="index.html#courses" data-i18n="nav.courses">Courses</a>
+      <a href="programs.html" data-i18n="nav.programs">Programs</a>
+      <a href="qa.html" data-i18n="nav.qa">Q&amp;A</a>
+      <a href="books.html" data-i18n="nav.books">Books</a>
+      <a href="teachers.html" data-i18n="nav.teachers">Our Teachers</a>
+      <a href="about.html" class="active" data-i18n="nav.about">About</a>
+      <a href="index.html#donate" data-i18n="nav.donate">Donate</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-switcher">
+        <button class="lang-current" id="langCurrent" aria-haspopup="listbox" aria-expanded="false">
+          <span id="langCurrentLabel">EN</span>
+          <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </button>
+        <ul class="lang-options" id="langOptions" role="listbox">
+          <li role="option" data-lang="en">English</li>
+          <li role="option" data-lang="ar">العربية</li>
+          <li role="option" data-lang="fr">Français</li>
+          <li role="option" data-lang="rw">Kinyarwanda</li>
+          <li role="option" data-lang="sw">Kiswahili</li>
+        </ul>
+      </div>
+      <a href="#login" class="btn btn-ghost" data-i18n="nav.login">Log In</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="section-inner">
+      <p class="hero-eyebrow" data-i18n="about.eyebrow">Our story</p>
+      <h1 class="page-title" data-i18n="about.title">Language is how a diaspora stays home</h1>
+      <p class="page-lede" data-i18n="about.lede">
+        DawaDiaspora was built for the sons and daughters of migrants who want their children to speak
+        the language their grandparents dreamed in — Kinyarwanda, Swahili, Arabic, and beyond.
+      </p>
+    </div>
+  </section>
+
+  <section class="about-content">
+    <div class="section-inner about-grid">
+      <div class="about-block">
+        <h2 data-i18n="about.mission.title">Our mission</h2>
+        <p data-i18n="about.mission.text">
+          Millions of families abroad watch a language slip away one generation at a time. We build
+          lesson libraries — readable, listenable, watchable — so that distance from home doesn't
+          have to mean distance from the mother tongue.
+        </p>
+      </div>
+      <div class="about-block">
+        <h2 data-i18n="about.approach.title">How we teach</h2>
+        <p data-i18n="about.approach.text">
+          Every course pairs a written guide with native audio and video, so you can learn the way
+          that suits you — on a commute, at a kitchen table, or with your children beside you.
+        </p>
+      </div>
+      <div class="about-block">
+        <h2 data-i18n="about.community.title">Built with the community</h2>
+        <p data-i18n="about.community.text">
+          Our lessons are written and recorded by native speakers from the communities we serve,
+          not generic courseware — because accent, rhythm, and context are half of any language.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="section-inner cta-band-inner">
+      <h2 data-i18n="about.cta.title">Ready to begin?</h2>
+      <a href="index.html#courses" class="btn btn-gold" data-i18n="btn.start_learning">Start Learning</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <a href="/" class="logo logo-footer">Dawa<span class="logo-accent" style="color:#C9A24B;">Diaspora</span></a>
+    <p data-i18n="footer.rights">All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/i18n-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
