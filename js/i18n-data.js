@@ -14,7 +14,7 @@ const TRANSLATIONS = {
   en: {
     "nav.courses": "Courses", "nav.faq": "Q&A", "nav.about": "About", "nav.donate": "Donate", "nav.login": "Log In",
     "hero.eyebrow": "A platform for the diaspora",
-    "hero.subtitle": "Learn the languages of home — through lessons built in PDF, audio, and video, in the language you already speak.",
+    "hero.subtitle": "Understand your religion, grounded in evidence — the Qur'an and Sunnah — through lessons in text (PDF), audio, and video, with trusted teachers upon the Sunnah.",
     "hero.available_in": "Available in",
     "btn.start_learning": "Start Learning", "btn.how_it_works": "How it works", "btn.custom_amount": "Custom", "btn.donate": "Donate",
     "courses.eyebrow": "Lessons", "courses.title": "Choose your language",
@@ -70,7 +70,7 @@ const TRANSLATIONS = {
   ar: {
     "nav.courses": "الدورات", "nav.faq": "الأسئلة", "nav.about": "من نحن", "nav.donate": "تبرع", "nav.login": "تسجيل الدخول",
     "hero.eyebrow": "منصة للشتات",
-    "hero.subtitle": "تعلّم لغة الوطن — من خلال دروس بصيغة PDF وصوت وفيديو، باللغة التي تتحدثها بالفعل.",
+    "hero.subtitle": "افهم دينك المبني على الدليل — القرآن والسنة — من خلال دروس نصية (PDF) وصوتية ومرئية، مع مشايخ موثوقين على السنة.",
     "hero.available_in": "متوفر باللغات",
     "btn.start_learning": "ابدأ التعلم", "btn.how_it_works": "كيف يعمل", "btn.custom_amount": "مبلغ آخر", "btn.donate": "تبرع",
     "courses.eyebrow": "الدروس", "courses.title": "اختر لغتك",
@@ -108,7 +108,7 @@ const TRANSLATIONS = {
   fr: {
     "nav.courses": "Cours", "nav.faq": "Q&R", "nav.about": "À propos", "nav.donate": "Faire un don", "nav.login": "Connexion",
     "hero.eyebrow": "Une plateforme pour la diaspora",
-    "hero.subtitle": "Apprenez la langue de vos racines — avec des leçons en PDF, audio et vidéo, dans la langue que vous parlez déjà.",
+    "hero.subtitle": "Comprenez votre religion, fondée sur des preuves — le Coran et la Sunna — à travers des leçons en texte (PDF), audio et vidéo, avec des enseignants de confiance suivant la Sunna.",
     "hero.available_in": "Disponible en",
     "btn.start_learning": "Commencer", "btn.how_it_works": "Comment ça marche", "btn.custom_amount": "Montant libre", "btn.donate": "Faire un don",
     "courses.eyebrow": "Leçons", "courses.title": "Choisissez votre langue",
@@ -164,7 +164,7 @@ const TRANSLATIONS = {
   rw: {
     "nav.courses": "Amasomo", "nav.faq": "Ibibazo", "nav.about": "Abo turi bo", "nav.donate": "Tanga impano", "nav.login": "Injira",
     "hero.eyebrow": "Urubuga rw'abo mu mahanga",
-    "hero.subtitle": "Iga ururimi rw'iwanyu — binyuze mu masomo ya PDF, amajwi, na videwo, mu rurimi usanzwe uvuga.",
+    "hero.subtitle": "Sobanukirwa idini yawe bishingiye kuri gihamya (Qur'an na Sunnat) hakoreshejwe inyandiko (PDF), amajwi (Audio) n'amashusho (Video) — hamwe n'aba Sheikh bari kuri Sunnah bizewe.",
     "hero.available_in": "Iboneka mu ndimi",
     "btn.start_learning": "Tangira Kwiga", "btn.how_it_works": "Uko bikora", "btn.custom_amount": "Andi mafaranga", "btn.donate": "Tanga impano",
     "courses.eyebrow": "Amasomo", "courses.title": "Hitamo ururimi rwawe",
@@ -202,7 +202,7 @@ const TRANSLATIONS = {
   sw: {
     "nav.courses": "Kozi", "nav.faq": "Maswali", "nav.about": "Kuhusu Sisi", "nav.donate": "Changia", "nav.login": "Ingia",
     "hero.eyebrow": "Jukwaa la watu wa diaspora",
-    "hero.subtitle": "Jifunze lugha ya kwenu — kupitia masomo ya PDF, sauti, na video, kwa lugha unayoizungumza tayari.",
+    "hero.subtitle": "Elewa dini yako, iliyojengwa juu ya ushahidi — Qur'ani na Sunnah — kupitia masomo ya maandishi (PDF), sauti, na video, pamoja na walimu waaminifu wanaofuata Sunnah.",
     "hero.available_in": "Inapatikana kwa",
     "btn.start_learning": "Anza Kujifunza", "btn.how_it_works": "Jinsi inavyofanya kazi", "btn.custom_amount": "Kiasi kingine", "btn.donate": "Changia",
     "courses.eyebrow": "Masomo", "courses.title": "Chagua lugha yako",
