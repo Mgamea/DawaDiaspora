@@ -1,4 +1,4 @@
-// ============ MOT D'ACCUEIL ANIMÉ ============
+// ============ MOT D'ACCUEIL ANIMÉ (page d'accueil uniquement) ============
 const morphWord = document.getElementById('morphWord');
 const langOrder = ['en', 'ar', 'fr', 'rw', 'sw'];
 let morphIndex = 0;
@@ -19,8 +19,13 @@ function cycleGreeting() {
   }, 320);
 }
 
-morphWord.style.transition = 'opacity 0.32s ease, transform 0.32s ease';
-setInterval(cycleGreeting, 2600);
+// Cette animation n'existe que sur index.html — sur les autres pages,
+// morphWord est absent, donc on ne lance rien (évite de bloquer le
+// reste du script, notamment le sélecteur de langue).
+if (morphWord) {
+  morphWord.style.transition = 'opacity 0.32s ease, transform 0.32s ease';
+  setInterval(cycleGreeting, 2600);
+}
 
 // ============ SÉLECTEUR DE LANGUE ============
 const langSwitcher = document.querySelector('.lang-switcher');
